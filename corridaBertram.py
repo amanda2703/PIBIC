@@ -28,7 +28,7 @@ def find_Jant(ADPm,delta_psi,parametros):
     RATm = ATPm/ADPm
     Jant = p19*(RATm/(RATm+p20))*(np.exp(0.5*FRT*delta_psi))
     return Jant
- 
+# Teste
 def find_JF1F0(ADPm,delta_psi,parametros,oligo):
     Amtot = parametros['Amtot']
     p13 = parametros['p13']
